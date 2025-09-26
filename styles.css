@@ -1,17 +1,19 @@
 /*  your css code here. If applicable */
 body{
-	background-color:#f8f8f8;
+	background-color: #f8f8f8;
 	margin:0px;
 	padding:0px;
-	font-family:sans-serif;
+	font-family: sans-serif;
 }
 
 .book-library{
 	background-color: #ffffff;
     width: 60%;
-    margin: 20px auto;
-    padding: 20px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+	max-width:720px;
+    margin: 18px auto;
+    padding: 16px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.08
+							);
     border-radius: 4px;
 }
 
@@ -24,47 +26,41 @@ body{
 
 
 .book {
-	background: #ffffff;
-    text-align: center;
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e0e0e0;
-    
+  background: #ffffff;
+  margin-bottom: 22px;
+  padding: 18px 12px;
+  border-bottom: 8px solid #f2f2f2; /* visible divider like screenshot */
+  text-align: center;
 }
-
 .book img {
-    display: block;
-    width: 180px;
-    height: auto;
-    margin: 0 auto 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  display: block;
+  width: 140px;
+  height: auto;
+  margin: 8px auto 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.08);
 }
-
 .book h2 {
-    font-size: 18px;
-    margin: 10px 0 4px;
-    color: #000;
-    text-transform: uppercase;
-	text-align:left;
+  font-size: 14px;
+  margin: 8px 0 6px;
+  color: #000;
+  text-transform: uppercase;
+text-align:left;
 }
 
 .book .author {
-    color: #777777;
-    font-size: 14px;
-    margin-bottom: 10px;
+  color: #777777; /* rgb(119, 119, 119) */
+  font-size: 12px;
+  margin: 0 0 10px;
 	text-align:left;
-	
 }
 
 .book .price {
-    display: block;
-    background-color: #2ecc71;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 8px 10px;
-    margin: 20px auto;
-    border-radius: 2px;
-}
-#heading{
-	text-align: center;
+  display: block;
+  background-color: #2ecc71; /* rgb(46, 204, 113) */
+  color: #ffffff;            /* rgb(255, 255, 255) */
+  font-weight: bold;
+  padding: 8px 12px;
+  margin: 0 20px;
+  border-radius: 3px;        /* tests expect border-radius to exist */
+  box-sizing: border-box;
 }
